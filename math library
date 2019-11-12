@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+#define PI 3.142
+
+using namespace std;
+
+int main()
+{
+	double j = 1.5, circle;
+	circle = PI * pow(j, 2);
+	cout << "\n\nThe area of this circle is: " << circle << "\n\n";
+
+	system("pause");
+	return 0;
+	
+}
